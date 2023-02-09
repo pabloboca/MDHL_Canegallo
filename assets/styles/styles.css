@@ -3,10 +3,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: aquamarine;
 }
 
+.header {
+    background-color: red;
+}
 
+.hache1 {
+    font-size: 4.5em;
+    display: inline;
+}
+
+.navegacion {
+    display: inline;
+    margin-left: 6%;
+}
+
+img {
+    width: 10%;
+}
 
 
 
