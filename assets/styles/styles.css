@@ -10,7 +10,6 @@ body {
     background-color: whitesmoke;
 }
 
-
 .hache1 {
     font-size: 4rem;
     padding: 5px;
@@ -20,7 +19,7 @@ body {
 .navegacion {
     display: inline-block;
     margin-left: 6%;
-    
+
 }
 
 .navegacion a {
