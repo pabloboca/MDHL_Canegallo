@@ -45,12 +45,18 @@ body {
     min-height: 100vh;
 }
 
+.section1 {
+    position: absolute;
+}
 
 .hache2 {
     text-align: center;
     border: 1px black solid;
     padding: 5px;
     font-size: 2rem;
+    position: sticky;
+    top: 0;
+    background-color: darkgray;
 }
 
 .logo_container {
