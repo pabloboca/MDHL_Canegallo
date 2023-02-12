@@ -32,6 +32,10 @@ body {
     border-radius: 2px;
 }
 
+.navegacion a:hover {
+    background-color: darkseagreen;
+}
+
 
 .banner1 {
     width: 100vw;
