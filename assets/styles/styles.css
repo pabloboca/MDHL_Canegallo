@@ -43,7 +43,7 @@ body {
 }
 
 .main{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
@@ -89,9 +89,13 @@ body {
     padding: 5px;
 }
 
+.aside {
+    margin: auto;
+    width: 50%;
+}
 
-.oculto{
-    display: none;
+.img_aside{
+    width: 100%;
 }
 
 .hache3 {
