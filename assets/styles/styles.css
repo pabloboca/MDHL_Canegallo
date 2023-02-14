@@ -10,16 +10,20 @@ body {
     background-color: whitesmoke;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .hache1 {
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 5px;
-    display: inline-block;
 }
 
 .navegacion {
-    display: inline-block;
-    margin-left: 6%;
-
+    padding: 20px;
+    position: stic
 }
 
 .navegacion a {
