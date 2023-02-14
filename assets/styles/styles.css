@@ -35,11 +35,11 @@ header {
 }
 
 .navegacion a:hover {
-    background-color: darkseagreen;
+    background-color: grey;
 }
 
 a[href="#"] {
-    background-color: darkseagreen;
+    background-color: grey;
 }
 
 .banner1 {
@@ -98,6 +98,13 @@ a[href="#"] {
     padding: 5px;
 }
 
+.art_games {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.3em;
+    line-height: 45px;
+}
+
 
 
 .art_rules {
@@ -108,11 +115,18 @@ a[href="#"] {
     background-color: red;
 }
 
+.info-personal {
+    display: flex;
+    font-size: .8em;
+    justify-content: space-between;
+}
+
 table {
     width: 90%;
     text-align: center;
-    background-color:gray;;
+    background-color:gray;
     border-collapse: collapse;
+    color: whitesmoke;
 }
 
 thead th:nth-child(1) {
@@ -167,6 +181,14 @@ thead th:nth-child(1) {
     text-align: center;
     padding: 20px;
     font-size: 1.5em;
+}
+
+.p-games {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    text-decoration: underline;
+    font-style: italic;
 }
 
 .futer {
