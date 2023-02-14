@@ -23,7 +23,6 @@ header {
 
 .navegacion {
     padding: 20px;
-    position: stic
 }
 
 .navegacion a {
@@ -32,16 +31,16 @@ header {
     color: white;
     padding: 5px;
     border: 2px black solid;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .navegacion a:hover {
     background-color: darkseagreen;
 }
 
+
 .banner1 {
     width: 100vw;
-    height: 60vh;
 }
 
 .main{
@@ -118,6 +117,18 @@ header {
     margin-left: 25px;
 }
 
+
+.futer {
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.futer p {
+    padding: 5px;
+    background-color: darkgray;
+    border: 1px solid black;
+}
 
 
 
