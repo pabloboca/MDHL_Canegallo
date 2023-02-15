@@ -89,6 +89,11 @@ a[href="#"] {
     display: inline-block;
     width: 60%;
     margin-top: 35px;
+    background-color: red;
+}
+
+form {
+    background-color: blue;
 }
 
 .logo {
@@ -235,7 +240,5 @@ thead th:nth-child(1) {
     background-color: darkgray;
     border: 1px solid black;
 }
-
-
 
 
