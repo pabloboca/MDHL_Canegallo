@@ -10,16 +10,38 @@ body {
     background-color: whitesmoke;
 }
 
+
+.hache1 {
+    font-size: 3rem;
+    padding: 5px;
+}
+
+.hache2 {
+    text-align: center;
+    border: 1px black solid;
+    padding: 5px;
+    font-size: 2rem;
+    position: sticky;
+    top: 0;
+    background-color: darkgray;
+}
+
+.hache3 {
+    font-style: italic;
+}
+
+.hache3-rules {
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+
 header {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.hache1 {
-    font-size: 3rem;
-    padding: 5px;
-}
 
 .navegacion {
     padding: 20px;
@@ -55,15 +77,6 @@ a[href="#"] {
     min-height: 80vh;
 }
 
-.hache2 {
-    text-align: center;
-    border: 1px black solid;
-    padding: 5px;
-    font-size: 2rem;
-    position: sticky;
-    top: 0;
-    background-color: darkgray;
-}
 
 .logo_container {
     display: inline-block;
@@ -82,8 +95,6 @@ a[href="#"] {
     width:50%;
     margin-left: 40%;
 }
-
-
 
 .art_home {
     width: 90%;
@@ -122,12 +133,44 @@ a[href="#"] {
     line-height: 40px;
 }
 
-
-.info-personal {
-    display: flex;
-    font-size: .8em;
-    justify-content: space-between;
+.art_home p {
+    margin-left: 25px;
 }
+
+.art_about p {
+    margin-left: 25px;
+}
+
+.p-rules{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    padding-top: 70px;
+}
+
+.p-games {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.sangria {
+    text-indent: 50px;
+}
+
+.corrido {
+    padding-left: 70px;
+}
+
+ol {
+    padding-left: 25px;
+}
+li {
+    padding-top: 20px;
+}
+
 
 table {
     width: 90%;
@@ -162,7 +205,11 @@ thead th:nth-child(1) {
     border: 1px solid black;
   }
 
-
+  .info-personal {
+    display: flex;
+    font-size: .8em;
+    justify-content: space-between;
+}
 
 .aside {
     margin: auto;
@@ -177,55 +224,6 @@ thead th:nth-child(1) {
     border: 1px solid black;  
 }
 
-
-.hache3 {
-    font-style: italic;
-}
-
-.hache3-rules {
-    padding-top: 45px;
-    padding-bottom: 25px;
-}
-
-.art_home p {
-    margin-left: 25px;
-}
-
-.art_about p {
-    margin-left: 25px;
-}
-
-.p-rules{
-    text-align: center;
-    padding: 20px;
-    font-size: 1.5em;
-    padding-top: 70px;
-}
-
-.p-games {
-    text-align: center;
-    padding: 20px;
-    font-size: 1.5em;
-    text-decoration: underline;
-    font-style: italic;
-}
-
-
-.sangria {
-    text-indent: 50px;
-}
-
-ol {
-    padding-left: 25px;
-}
-li {
-    padding-top: 20px;
-}
-
-.corrido {
-    padding-left: 70px;
-}
-
 .futer {
     text-align: center;
     padding: 5px;
@@ -237,7 +235,6 @@ li {
     background-color: darkgray;
     border: 1px solid black;
 }
-
 
 
 
