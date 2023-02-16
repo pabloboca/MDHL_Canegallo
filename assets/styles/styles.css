@@ -135,9 +135,29 @@ iframe {
 
 form {
     background-color: blue;
-    height: 60vh;
+    height: 200vh;
     padding: 10px;
     line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+fieldset {
+    background-color: red;
+    padding: 10px;
+}
+input {
+    border-bottom: 2px solid black;
+}
+
+.agranda_campo1 {
+    width: 70%;
+}
+.agranda_campo2 {
+    width: 45%;
+}
+.agranda_campo3 {
+    width: 25%;
 }
 
 .logo {
