@@ -97,7 +97,7 @@
                     </fieldset>
 
                     <p>Wich elementary school do you live near?</p>
-                    <label for="cschool">Colsest School</label>
+                    <label for="cschool">Closest School</label>
                     <select name="cschool" id="cshool">
                         <option value="seleccionar">Select</option>
                         <option value="aj">AJ Katzenmaier</option>
@@ -106,11 +106,49 @@
                         <option value="marjorie">Marjorie P Hart</option>
                         <option value="nelementary">North Elementary</option>
                         <option value="selementary">South Elementary</option>
-                        <input type="submit" value="submit">
                     </select>
 
+                    <fieldset>
+                        <legend>What position(s) do you normally play? (check all that apply)/legend>
+                        <input type="checkbox" id="forward" name="position" value="forward">
+                        <label for="forward">Forward</label>
+                        <input type="checkbox" id="midfield" name="position" value="midfield">
+                        <label for="midfield">Midfield</label>
+                        <input type="checkbox" id="defense" name="position" value="defense">
+                        <label for="defense">Defense</label>
+                        <input type="checkbox" id="goalkeeper" name="position" value="goalkeeper">
+                        <label for="goalkeeper">Goalkeeper</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Uniform Size</legend>
+                        <input type="radio">
+                        <label for="">Youth Small</label>
+                        <input type="radio">
+                        <label for="">Youth Medium</label>
+                        <input type="radio">
+                        <label for="">Youth Large</label>
+                        <input type="radio">
+                        <label for="">Small</label>
+                        <input type="radio">
+                        <label for="">Medium</label>
+                        <input type="radio">
+                        <label for="">Large</label>
+                        <input type="radio">
+                        <label for="">Extra-Large</label>
+                    </fieldset>
+
+                    <div>
+                        <h4><b>Permission to Play</b></h4>
+                        <p>I, the parent or guardian of the minor, agree that the rregistrant and i will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated whith hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the program and/or being transported to or from MDHL sponsored activities, which transportation.</p>
+                        <p>By entering your name below, I hereby agree and authorize the above. In additon, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                        <label for="signature">Parent/Guardian Signature:</label>
+                        <input type="text" id="signature" name="signature">
+                        <label for="date2">Date:</label>
+                        <input type="text" id="date2" name="date2">
+                    </div>
                     
-                    
+                    <input type="submit" value="Enviar">
                 </form>
                 
                 <!--

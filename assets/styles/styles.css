@@ -135,6 +135,9 @@ iframe {
 
 form {
     background-color: blue;
+    height: 60vh;
+    padding: 10px;
+    line-height: 40px;
 }
 
 .logo {
