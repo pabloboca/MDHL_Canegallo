@@ -135,7 +135,7 @@ iframe {
 
 form {
     background-color: blue;
-    height: 200vh;
+    height: 250vh;
     padding: 10px;
     line-height: 40px;
     display: flex;
@@ -146,6 +146,29 @@ fieldset {
     background-color: red;
     padding: 10px;
 }
+
+.field_position {
+    display: flex;
+    width: 40%;
+}
+.field_position1 {
+    display: flex;
+    width: 80%;
+    font-size: .7em;
+}
+
+.field_position label {
+    padding-left: 20px;
+}
+.field_position1 label {
+    padding-left: 10px;
+    
+}
+
+.acomodar_check {
+    margin-left: 40px;
+}
+
 input {
     border-bottom: 2px solid black;
 }
@@ -159,6 +182,13 @@ input {
 .agranda_campo3 {
     width: 25%;
 }
+
+.school_padding{
+    width: 20%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
 
 .logo {
     width:50%;

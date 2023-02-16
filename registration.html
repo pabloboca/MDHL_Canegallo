@@ -74,72 +74,82 @@
                             <label for="zcode">Zip Code:</label>
                             <input class="agranda_campo3" type="number" id="zcode" name="zcode" min="1" max="9999" required>
                         </div>
+                        <div>
+                            <label for="bdate">Birth Date(mm/dd/yyyy):</label>
+                            <input type="date" id="bdate" name="bdate" required>
 
-                        <label for="bdate">Birth Date(mm/dd/yyyy):</label>
-                        <input type="date" id="bdate" name="bdate" required>
+                            <label for="gender">Gender:</label>
+                            <label for="male">Male</label>
+                            <input type="radio" id="male" name="gender" value="male" required>
+                            <label for="">Female</label>
+                            <input type="radio" id="female" name="gender" value="female" required>
 
-                        <label for="gender">Gender:</label>
-                        <label for="male">Male</label>
-                        <input type="radio" id="male" name="gender" value="male" required>
-                        <label for="">Female</label>
-                        <input type="radio" id="female" name="gender" value="female" required>
-
-                        <label for="grade">Grade:</label>
-                        <input type="radio" id="grade" name="grade" value="pre-school" required>
-                        <label for="">Pre-School</label>
-                        <input type="radio" id="1st" name="grade" value="1st" required>
-                        <label for="1st">1st</label>
-                        <input type="radio" id="2st" name="grade" value="2st" required>
-                        <label for="2st">2st</label>
-                        <input type="radio" id="3st" name="grade" value="3st" required>
-                        <label for="3st">3st</label>
-                        <input type="radio" id="4st" name="grade" value="4st" required>
-                        <label for="4st">4st</label>
-                        <input type="radio" id="5st" name="grade" value="5st" required>
-                        <label for="5st">5st</label>
-
+                            <label for="grade">Grade:</label>
+                            <input type="radio" id="grade" name="grade" value="pre-school" required>
+                            <label for="">Pre-School</label>
+                            <input type="radio" id="1st" name="grade" value="1st" required>
+                            <label for="1st">1st</label>
+                            <input type="radio" id="2st" name="grade" value="2st" required>
+                            <label for="2st">2st</label>
+                            <input type="radio" id="3st" name="grade" value="3st" required>
+                            <label for="3st">3st</label>
+                            <input type="radio" id="4st" name="grade" value="4st" required>
+                            <label for="4st">4st</label>
+                            <input type="radio" id="5st" name="grade" value="5st" required>
+                            <label for="5st">5st</label>
+                        </div>
                     </fieldset>
-
-                    <p>Wich elementary school do you live near?</p>
-                    <label for="cschool">Closest School</label>
-                    <select multiple name="cschool" id="cshool" required>
-                        <option value="seleccionar">Select</option>
-                        <option value="aj">AJ Katzenmaier</option>
-                        <option value="greenbay">Greenbay</option>
-                        <option value="howard">Howard A Yeager</option>
-                        <option value="marjorie">Marjorie P Hart</option>
-                        <option value="nelementary">North Elementary</option>
-                        <option value="selementary">South Elementary</option>
-                    </select>
+                    
+                    <fieldset>
+                        <legend>Wich elementary school do you live near?</legend>
+                        <label for="cschool">Closest School</label>
+                        <select multiple name="cschool" id="cshool" class="school_padding" required>
+                            <option value="seleccionar">Select</option>
+                            <option value="aj">AJ Katzenmaier</option>
+                            <option value="greenbay">Greenbay</option>
+                            <option value="howard">Howard A Yeager</option>
+                            <option value="marjorie">Marjorie P Hart</option>
+                            <option value="nelementary">North Elementary</option>
+                            <option value="selementary">South Elementary</option>
+                        </select>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>What position(s) do you normally play? (check all that apply)</legend>
+                        <div class="field_position">
+                            <input type="checkbox" id="forward" name="position" value="forward">
+                            <label for="forward">Forward</label>
+                            <input class="acomodar_check" type="checkbox" id="midfield" name="position" value="midfield">
+                            <label for="midfield">Midfield</label>
+                        </div>
+                        <div class="field_position">
+                            <input type="checkbox" id="defense" name="position" value="defense">
+                            <label for="defense">Defense</label>
+                            <input class="acomodar_check" type="checkbox" id="goalkeeper" name="position" value="goalkeeper">
+                            <label for="goalkeeper">Goalkeeper</label>
+                        </div>
+                    </fieldset>
 
                     <fieldset>
-                        <legend>What position(s) do you normally play? (check all that apply)/legend>
-                        <input type="checkbox" id="forward" name="position" value="forward">
-                        <label for="forward">Forward</label>
-                        <input type="checkbox" id="midfield" name="position" value="midfield">
-                        <label for="midfield">Midfield</label>
-                        <input type="checkbox" id="defense" name="position" value="defense">
-                        <label for="defense">Defense</label>
-                        <input type="checkbox" id="goalkeeper" name="position" value="goalkeeper">
-                        <label for="goalkeeper">Goalkeeper</label>
-                    </fieldset>
-
-                    <fieldset >
                         <legend>Uniform Size</legend>
-                        <input type="radio">
-                        <label for="">Youth Small</label>
-                        <input type="radio">
-                        <label for="">Youth Medium</label>
-                        <input type="radio">
-                        <label for="">Youth Large</label>
-                        <input type="radio">
-                        <label for="">Small</label>
-                        <input type="radio">
-                        <label for="">Medium</label>
-                        <input type="radio">
-                        <label for="">Large</label>
-                        <input type="radio">
-                        <label for="">Extra-Large</label>
+                        <div class="field_position1">
+                            <input type="radio">
+                            <label for="">Youth Small</label>
+                            <input class="acomodar_check" type="radio">
+                            <label for="">Youth Medium</label>
+                            <input class="acomodar_check" type="radio">
+                            <label for="">Youth Large</label>
+                            <input class="acomodar_check" type="radio">
+                            <label for="">Small</label>
+                        </div>
+                        <div class="field_position1">
+                            <input type="radio">
+                            <label for="">Medium</label>
+                            <input class="acomodar_check" type="radio">
+                            <label for="">Large</label>
+                            <input class="acomodar_check" type="radio">
+                            <label for="">Extra-Large</label>
+                        </div>
                     </fieldset>
 
                     <div>
