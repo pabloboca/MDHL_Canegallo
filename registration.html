@@ -68,7 +68,7 @@
                         <input type="text" id="city" name="city" required>
     
                         <label for="zcode">Zip Code:</label>
-                        <input type="text" id="zcode" name="zcode" required>
+                        <input type="number" id="zcode" name="zcode" min="1" max="9999" required>
     
                         <label for="bdate">Birth Date(mm/dd/yyyy):</label>
                         <input type="date" id="bdate" name="bdate" required>
@@ -93,8 +93,21 @@
                         <input type="radio" id="5st" name="grade" value="5st" required>
                         <label for="5st">5st</label>
 
+                    
                     </fieldset>
 
+                    <p>Wich elementary school do you live near?</p>
+                    <label for="cschool">Colsest School</label>
+                    <select name="cschool" id="cshool">
+                        <option value="seleccionar">Select</option>
+                        <option value="aj">AJ Katzenmaier</option>
+                        <option value="greenbay">Greenbay</option>
+                        <option value="howard">Howard A Yeager</option>
+                        <option value="marjorie">Marjorie P Hart</option>
+                        <option value="nelementary">North Elementary</option>
+                        <option value="selementary">South Elementary</option>
+                        <input type="submit" value="submit">
+                    </select>
 
                     
                     
