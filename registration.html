@@ -81,12 +81,12 @@
                             <label for="gender">Gender:</label>
                             <label for="male">Male</label>
                             <input type="radio" id="male" name="gender" value="male" required>
-                            <label for="">Female</label>
+                            <label for="female">Female</label>
                             <input type="radio" id="female" name="gender" value="female" required>
 
                             <label for="grade">Grade:</label>
                             <input type="radio" id="grade" name="grade" value="pre-school" required>
-                            <label for="">Pre-School</label>
+                            <label for="pre-shool">Pre-School</label>
                             <input type="radio" id="1st" name="grade" value="1st" required>
                             <label for="1st">1st</label>
                             <input type="radio" id="2st" name="grade" value="2st" required>
@@ -131,58 +131,43 @@
                     </fieldset>
 
                     <fieldset>
-                        <legend>Uniform Size</legend>
+                        <legend for="uniform">Uniform Size</legend>
                         <div class="field_position1">
-                            <input type="radio">
-                            <label for="">Youth Small</label>
-                            <input class="acomodar_check" type="radio">
-                            <label for="">Youth Medium</label>
-                            <input class="acomodar_check" type="radio">
-                            <label for="">Youth Large</label>
-                            <input class="acomodar_check" type="radio">
-                            <label for="">Small</label>
+                            <input type="radio" id="ys" name="uniform" value="ys">
+                            <label for="ys">Youth Small</label>
+                            <input class="acomodar_check" type="radio" id="ym" name="uniform" value="ym">
+                            <label for="ym">Youth Medium</label>
+                            <input class="acomodar_check" type="radio" id="yl" name="uniform" value="yl">
+                            <label for="yl">Youth Large</label>
+                            <input class="acomodar_check" type="radio" id="s" name="uniform" value="s">
+                            <label for="s">Small</label>
                         </div>
                         <div class="field_position1">
-                            <input type="radio">
-                            <label for="">Medium</label>
-                            <input class="acomodar_check" type="radio">
-                            <label for="">Large</label>
-                            <input class="acomodar_check" type="radio">
-                            <label for="">Extra-Large</label>
+                            <input type="radio" id="m" name="uniform" value="m">
+                            <label for="m">Medium</label>
+                            <input class="acomodar_check" type="radio" id="l" name="uniform" value="l">
+                            <label for="l">Large</label>
+                            <input class="acomodar_check" type="radio" id="el" name="uniform" value="el">
+                            <label for="el">Extra-Large</label>
                         </div>
                     </fieldset>
 
-                    <div>
+                    <div class="ptp">
                         <h4><b>Permission to Play</b></h4>
                         <p>I, the parent or guardian of the minor, agree that the rregistrant and i will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated whith hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the program and/or being transported to or from MDHL sponsored activities, which transportation.</p>
                         <p>By entering your name below, I hereby agree and authorize the above. In additon, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
-                        <label for="signature">Parent/Guardian Signature:</label>
-                        <input type="text" id="signature" name="signature">
-                        <label for="date2">Date:</label>
-                        <input type="text" id="date2" name="date2">
+                        <div class="signature">
+                            <label for="signature">Parent/Guardian Signature:</label>
+                            <input type="text" id="signature" name="signature">
+                        </div> 
+                        <div>  
+                            <label for="date2">Date:</label>
+                            <input type="text" id="date2" name="date2">
+                        </div>     
                     </div>
                     
-                    <input type="submit" value="Enviar">
+                    <input class="enviar" type="submit" id="enviar" name="enviar" value="Enviar">
                 </form>
-                
-                <!--
-                
-                <article class="art_home">
-                    <h3 class="hache3">August 4</h3>
-                    <p>MDSL Fundraiser</p>
-                </article>
-
-                
-                <article class="art_home">
-                    <h3 class="hache3">August 16</h3>
-                    <p>Season Kick-off: Meet the Teams</p>
-                </article>
-
-                
-                <article class="art_home">
-                    <h3 class="hache3">September 1</h3>
-                    <p>First Game of the Season (Check Game Schedule for details)</p>
-                </article>-->
             
             </div>    
         </section>

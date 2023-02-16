@@ -134,16 +134,16 @@ iframe {
 }
 
 form {
-    background-color: blue;
+    background-clor: blue;
     height: 250vh;
     padding: 10px;
     line-height: 40px;
     display: flex;
     flex-direction: column;
     font-size: 1.5em;
+    border: 1px solid grey;
 }
 fieldset {
-    background-color: red;
     padding: 10px;
 }
 
@@ -171,6 +171,9 @@ fieldset {
 
 input {
     border-bottom: 2px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: o;
 }
 
 .agranda_campo1 {
@@ -189,6 +192,26 @@ input {
     border: 1px solid black;
 }
 
+.ptp {
+    margin-top: 50px;
+}
+.signature {
+    padding-top: 30px;
+}
+
+.enviar {
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    align-self: center;
+    background-color: grey;
+    color: white;
+    border-bottom: 0;
+}
+.enviar:hover {
+    background-color: greenyellow;
+}
 
 .logo {
     width:50%;
