@@ -63,14 +63,14 @@
                         <div>
                             <label for="bdate">Birth Date(mm/dd/yyyy):</label>
                             <input type="date" id="bdate" name="bdate" required>
-                            <label for="genero">Gender:</label>
+                            <label for="gender">Gender:</label>
                             <label for="male">Male</label>
                             <input type="radio" id="male" name="gender" value="male" required>
                             <label for="female">Female</label>
                             <input type="radio" id="female" name="gender" value="female" required>
                             <label for="grade">Grade:</label>
-                            <input type="radio" id="grade" name="grade" value="pre-school" required>
-                            <label for="preshool">Pre-School</label>
+                            <input type="radio" id="pre_school" name="grade" value="pre_school" required>
+                            <label for="pre_school">Pre-School</label>
                             <input type="radio" id="1st" name="grade" value="1st" required>
                             <label for="1st">1st</label>
                             <input type="radio" id="2st" name="grade" value="2st" required>
@@ -86,7 +86,7 @@
                     <fieldset>
                         <legend>Wich elementary school do you live near?</legend>
                         <label for="cschool">Closest School</label>
-                        <select multiple name="c_school" id="cshool" class="school_padding" required>
+                        <select multiple name="c_school" id="cschool" class="school_padding" required>
                             <option value="seleccionar">Select</option>
                             <option value="aj">AJ Katzenmaier</option>
                             <option value="greenbay">Greenbay</option>
@@ -138,11 +138,11 @@
                         <p>By entering your name below, I hereby agree and authorize the above. In additon, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
                         <div class="signature">
                             <label for="signature">Parent/Guardian Signature:</label>
-                            <input type="text" id="signature" name="signature">
+                            <input type="text" id="signature" name="signature" required>
                         </div> 
                         <div>  
                             <label for="date2">Date:</label>
-                            <input type="text" id="date2" name="date2">
+                            <input type="text" id="date2" name="date2" required>
                         </div>     
                     </div>
                     <input class="enviar" type="submit" id="enviar" name="enviar" value="Enviar">
