@@ -121,7 +121,7 @@ a[href="#"] {
     margin: auto;
     display: flex;
     width: 80%;
-    height: 110vh;
+    min-height: 110vh;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -228,7 +228,7 @@ li {
 
 /*pagina regitration*/
 form {
-    height: 250vh;
+    min-height: 250vh;
     padding: 10px;
     line-height: 40px;
     display: flex;
@@ -334,8 +334,10 @@ input {
 
 /*empezando de a poco con mediaqueries sin que cuente para el task4*/
 
-@media scree and (max-width:769px) {
-
+@media screen and (max-width:769px) {
+    h1 {
+        color: red;
+    }
 }
 
 
