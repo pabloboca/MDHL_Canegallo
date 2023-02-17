@@ -11,6 +11,7 @@ body {
 }
 
 
+/*titulos generales*/
 .hache1 {
     font-size: 3rem;
     padding: 5px;
@@ -35,18 +36,15 @@ body {
     padding-bottom: 25px;
 }
 
-
+/*header y nav*/
 header {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
-
 .navegacion {
     padding: 20px;
 }
-
 .navegacion a {
     background-color: blue;
     text-decoration: none;
@@ -55,19 +53,18 @@ header {
     border: 2px black solid;
     border-radius: 10px;
 }
-
 .navegacion a:hover {
     background-color: grey;
 }
-
 a[href="#"] {
     background-color: grey;
 }
-
 .banner1 {
     width: 100vw;
 }
 
+
+/*main, sections, logos, container*/
 .main{
     min-height: 100vh;
 }
@@ -76,8 +73,51 @@ a[href="#"] {
     position: relative;
     min-height: 80vh;
 }
+
+.logo_container {
+    display: inline-block;
+    width: 23%;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.art_container {
+    display: inline-block;
+    width: 60%;
+    margin-top: 35px;
+   
+}
+.logo {
+    width:50%;
+    margin-left: 40%;
+}
+
+/*home*/
+.art_home {
+    width: 90%;
+    height: 15%;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.art_home p {
+    margin-left: 25px;
+}
+
+
+/*about*/
+.art_about {
+    width: 90%;
+    height: 25%;
+    margin-left: 30px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+.art_about p {
+    margin-left: 25px;
+}
+
+/*pagina games, tabla y maps*/
 .section2 {
-    
     margin: auto;
     display: flex;
     width: 80%;
@@ -88,7 +128,51 @@ a[href="#"] {
     align-content: center;
     gap: 20px;
     padding-top: 50px;
-
+}
+.art_games {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.3em;
+    line-height: 45px;
+}
+.p-games {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    text-decoration: underline;
+    font-style: italic;
+}
+table {
+    width: 90%;
+    text-align: center;
+    background-color:gray;
+    border-collapse: collapse;
+    color: whitesmoke;
+}
+thead th:nth-child(1) {
+    width: 10%;
+    border: 3px solid black;
+}
+thead th:nth-child(2) {
+    width: 10%;
+    border: 3px solid black;
+}
+thead th:nth-child(3) {
+    width: 20%;
+    border: 3px solid black;
+}
+thead th:nth-child(4) {
+    width: 10%;
+    border: 3px solid black;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+}
+.info-personal {
+    display: flex;
+    font-size: .8em;
+    justify-content: space-between;
 }
 .titlemap {
     align-self: flex-start;
@@ -98,10 +182,7 @@ a[href="#"] {
     text-align: center;
     font-size: 1.5em;
 }
-
-
 .caja {
-    
     width: 250px;
     height: 250px;
     text-align: center;
@@ -110,7 +191,6 @@ a[href="#"] {
 .caja h4 {
     padding-bottom: 10px;
 }
-
 iframe {
     width:200px;
     height: 200px;
@@ -118,21 +198,35 @@ iframe {
     border-radius: 5px;
 }
 
-
-.logo_container {
-    display: inline-block;
-    width: 23%;
-    vertical-align: top;
-    margin-top: 10px;
+/*pagina rules*/
+.art_rules {
+    width: 100%;
+    height: 25%;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 1.5em;
+}
+.p-rules{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    padding-top: 70px;
+}
+.sangria {
+    text-indent: 50px;
+}
+.corrido {
+    padding-left: 70px;
+}
+ol {
+    padding-left: 25px;
+}
+li {
+    padding-top: 20px;
 }
 
-.art_container {
-    display: inline-block;
-    width: 60%;
-    margin-top: 35px;
-   
-}
 
+/*pagina regitration*/
 form {
     height: 250vh;
     padding: 10px;
@@ -145,7 +239,6 @@ form {
 fieldset {
     padding: 10px;
 }
-
 .field_position {
     display: flex;
     width: 40%;
@@ -155,7 +248,6 @@ fieldset {
     width: 80%;
     font-size: .7em;
 }
-
 .field_position label {
     padding-left: 20px;
 }
@@ -163,18 +255,15 @@ fieldset {
     padding-left: 10px;
     
 }
-
 .acomodar_check {
     margin-left: 40px;
 }
-
 input {
     border-bottom: 2px solid black;
     border-top: 0;
     border-left: 0;
     border-right: o;
 }
-
 .agranda_campo1 {
     width: 70%;
 }
@@ -184,20 +273,17 @@ input {
 .agranda_campo3 {
     width: 25%;
 }
-
 .school_padding{
     width: 20%;
     padding: 10px;
     border: 1px solid black;
 }
-
 .ptp {
     margin-top: 50px;
 }
 .signature {
     padding-top: 30px;
 }
-
 .enviar {
     padding: 10px;
     margin-top: 30px;
@@ -212,127 +298,14 @@ input {
     background-color: greenyellow;
 }
 
-.logo {
-    width:50%;
-    margin-left: 40%;
-}
-
-.art_home {
-    width: 90%;
-    height: 15%;
-    margin-left: 30px;
-    padding: 10px;
-    font-size: 1.5em;
-}
-
-.art_about {
-    width: 90%;
-    height: 25%;
-    margin-left: 30px;
-    padding: 15px;
-    font-size: 1.5em;
-}
-
-.art_games {
-    width: 100%;
-    padding: 10px;
-    font-size: 1.3em;
-    line-height: 45px;
-    
-}
-
-.art_rules {
-    width: 100%;
-    height: 25%;
-    margin-left: 10px;
-    padding: 5px;
-    font-size: 1.5em;
-}
-
+/*pagina contact*/
 .art_contact {
     font-size: 1.5em;
     padding: 20px;
     line-height: 40px;
 }
 
-.art_home p {
-    margin-left: 25px;
-}
-
-.art_about p {
-    margin-left: 25px;
-}
-
-.p-rules{
-    text-align: center;
-    padding: 20px;
-    font-size: 1.5em;
-    padding-top: 70px;
-}
-
-.p-games {
-    text-align: center;
-    padding: 20px;
-    font-size: 1.5em;
-    text-decoration: underline;
-    font-style: italic;
-}
-
-.sangria {
-    text-indent: 50px;
-}
-
-.corrido {
-    padding-left: 70px;
-}
-
-ol {
-    padding-left: 25px;
-}
-li {
-    padding-top: 20px;
-}
-
-
-table {
-    width: 90%;
-    text-align: center;
-    background-color:gray;
-    border-collapse: collapse;
-    color: whitesmoke;
-}
-
-thead th:nth-child(1) {
-    width: 10%;
-    border: 3px solid black;
-  }
-  
-  thead th:nth-child(2) {
-    width: 10%;
-    border: 3px solid black;
-  }
-  
-  thead th:nth-child(3) {
-    width: 20%;
-    border: 3px solid black;
-  }
-  
-  thead th:nth-child(4) {
-    width: 10%;
-    border: 3px solid black;
-  }
-  
-  th, td {
-    padding: 10px;
-    border: 1px solid black;
-  }
-
-  .info-personal {
-    display: flex;
-    font-size: .8em;
-    justify-content: space-between;
-}
-
+/*aside*/
 .aside {
     margin: auto;
     width: 80%;
@@ -340,22 +313,30 @@ thead th:nth-child(1) {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-
 .img_aside{
     width: 50%;
     border: 1px solid black;  
 }
 
+/*footer*/
 .futer {
     text-align: center;
     padding: 5px;
     
 }
-
 .futer p {
     padding: 5px;
     background-color: darkgray;
     border: 1px solid black;
 }
+
+
+
+/*empezando de a poco con mediaqueries sin que cuente para el task4*/
+
+@media scree and (max-width:769px) {
+
+}
+
 
 
